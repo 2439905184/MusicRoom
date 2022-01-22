@@ -1,3 +1,0 @@
-Too few argument(s). At least 1 argument(s) required, but 0 argument(s) passed.
-> Script format error: init.txt:185
-> @bgm 
