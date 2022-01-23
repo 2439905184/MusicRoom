@@ -1,3 +1,11 @@
 :END
 游戏结束 感谢游玩！
+*旁白*编剧：128hh，编程:128hh，音乐:noesis素材+自制，画面:借用noesis
+*旁白*特别感谢：suika2引擎
+@bg touhou.png 1.0
+@ch c none 0.5
+@ch right none 0.5
+*旁白*彩蛋！赠送一首zun曲《上海アリス幻樂団 - 神々が恋した幻想郷》
+@bgm zun.ogg
+@click
 @load init.txt
