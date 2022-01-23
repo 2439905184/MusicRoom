@@ -1,11 +1,20 @@
 :END
+@ch c que01.png 0.5
 游戏结束 感谢游玩！
-*旁白*编剧：128hh，编程:128hh，音乐:noesis素材+自制，画面:借用noesis
-*旁白*特别感谢：suika2引擎
-@bg touhou.png 1.0
-@ch c none 0.5
-@ch right none 0.5
-*旁白*彩蛋！赠送一首zun曲《上海アリス幻樂団 - 神々が恋した幻想郷》
+*旁白*编剧:创艺，编程:创艺，演出:创艺，图像处理:创艺,音乐:noesis素材+自制，立绘和背景:借用noesis中的图
+*旁白*特别感谢：suika2引擎、GIMP/GNU图像处理软件、audacity音频编辑软件、格式工厂、vs code代码编辑器
+@ch c none 0.25
+@ch right none 0.25
+@bg touhou.png 1.0 clockwise
+*旁白*彩蛋！赠送一首zun曲《上海アリス幻樂団 - 神恋した幻想郷》
 @bgm zun.ogg
+### 0秒过渡 x y
+@ch c char.png 1.0 n 0 -600
+@cha center 3 move 0 600 show
+@ch c char_ku.png 1.0
+*旁白*蕴含魔力的土壤（本来想做键盘操作的，但是suika2里的源码没有这个功能）做不了.jpg
+*旁白*改源码应该可以实现:D
+@ch c char.png 0.5
+*旁白*喜欢的话就把它听完吧。
 @click
 @load init.txt

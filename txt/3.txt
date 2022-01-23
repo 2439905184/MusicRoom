@@ -6,7 +6,7 @@
 *忧姬*你是认真的嘛。
 @ch c k07.png 1.0
 *小夜美*没错！我是认真的，我想要开最好的音乐餐厅！
-@bg home.png 0.5
+@bg home.png 1.0 curtain-up
 *小夜美*说完就回到自己的房间里，打开电脑，查询有关开店的手续。
 @ch c char.png 1.0
 @bg homeNight.png 1.0
