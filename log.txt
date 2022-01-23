@@ -1,3 +1,0 @@
-Label "QUIT" not found.
-> Script execution error: init.txt:8
-> @menu menu2.png menu_selected.png START 2 495 314 192 LOAD 316 494 322 203 CONFIG 640 492 317 204 QUIT 960 497 317 201

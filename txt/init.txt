@@ -1,5 +1,15 @@
-### Menu
+### logo
 @vol bgm 1.0
+@bg white.png 0
+@ch c suika.png 1.0
+@se suika.ogg
+@wait 2.0
+@ch c none 1.0
+### 小沙盒工作室logo
+@bgm logo.ogg
+@bg white.png 1.0
+@ch c sand.png 0.5
+@wait 1.0
 ### 这里换个自制曲子 不过会有点破音 原工程没了 音乐餐厅 主题是轻松愉快 那么bgm应该选择风格->？
 @bgm title.ogg
 @bg menu2.png 0
@@ -7,16 +17,35 @@
 :MENU
 @menu menu2.png menu_selected.png START 2 495 314 192 LOAD 316 494 322 203 CONFIG 640 492 317 204 QUIT 960 497 317 201
 
-###
-### Logo
-###
 :START
-@bg white.png 0
-@ch c suika.png 1.0
-@se suika.ogg
-@wait 2.0
-@ch c none 1.0
 @goto SCENE_HELLO
+
+:LOAD
+@se click.ogg
+@bg menu2.png
+@bg load-bg.png 1.0
+@goto $LOAD
+@bg menu2.png 1.0
+@goto MENU
+
+:CONFIG
+@se click.ogg
+@bg menu2.png
+@bg config.png 1.0
+@goto CONFIG_SCREEN
+
+:CONFIG_OK
+@se click.ogg
+@bg config.png
+@bg menu2.png 1.0
+@goto MENU
+
+:CONFIG_SCREEN
+@menu config.png config_selected.png BGM_STOP 468 170 149 62 VOICE_STOP 468 256 149 62 SE_STOP 468 340 149 62 BGM_MEDIUM 655 170 237 62 VOICE_MEDIUM 655 256 237 62 SE_MEDIUM 655 340 237 62 BGM_MAX 933 170 127 62 VOICE_MAX 933 256 127 62 SE_MAX 933 340 127 62 CONFIG_OK 524 598 219 73
+
+:QUIT
+@se click.ogg
+@goto END
 
 :SCENE_HELLO
 @bg coast.png 0
@@ -36,3 +65,11 @@
 *旁白*注意：此文为作者随手写的，文笔可能不好，请见谅。
 *旁白*简介：一个喜欢音乐的人开了一家音乐餐厅，好玩的故事就这样发生......
 @load 1.txt
+
+:END
+@vol bgm 0.0 2.0
+@bg white.png 1.0
+@ch c sand.png 0.5
+@wait 1.0
+@ch c none 1.0
+
