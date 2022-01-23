@@ -49,7 +49,7 @@
 @goto END
 
 :SCENE_HELLO
-@bg coast.png 0
+@bg street.png 0
 @ch c k07.png 1.0
 @bgm 02.ogg
 *小夜美*欢迎游玩我制作的音乐餐厅视觉小说demo
