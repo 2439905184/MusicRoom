@@ -9,7 +9,7 @@
 @bgm logo.ogg
 @bg white.png 1.0
 @ch c sand.png 0.5
-@wait 1.0
+@wait 4
 ### 这里换个自制曲子 不过会有点破音 原工程没了 音乐餐厅 主题是轻松愉快 那么bgm应该选择风格->？
 @bgm title.ogg
 @bg menu2.png 0
