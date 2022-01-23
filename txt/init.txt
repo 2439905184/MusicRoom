@@ -69,3 +69,11 @@
 *noesis*简介：一个喜欢音乐的人开了一家音乐餐厅，有趣的故事就这样发生......
 @ch c none 0.5
 @load 1.txt
+
+### 这个不能删！
+:END
+@vol bgm 0.0 2.0
+@bg white.png 1.0
+@ch c sand.png 0.5
+@wait 1.0
+@ch c none 1.0

@@ -1,0 +1,3 @@
+Label "END" not found.
+> Script execution error: init.txt:49
+> @goto END
