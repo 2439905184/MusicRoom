@@ -4,19 +4,18 @@
 @bg home.png 1.0 
 *小夜美*从床上爬了起来，照了照镜子，刷好牙后就开始吃早饭。
 *小夜美*打开手机放了她最喜欢的音乐。和往常一样她打开了电脑上的FL Studio开始编曲。
-@bg streetNight.png 1.0
 @ch c friend.png 1.0
-*朋友*打来电话，你要不要去餐厅吃早饭。
+*朋友*小夜美，今天要不要去餐厅吃饭。
 @ch right char.png 1.0
 *小夜美*我已经吃过早饭了，就不去了吧。
-@cha center 0.25 move 0 100 show
-### @shake horizontal 0.5 3 50
-### 这里应该把抖动效果作用于人物
+@cha center 1 move 0 100 show
 *朋友*这样啊，那可真可惜。今天有打折优惠，两个人去可以便宜一半的价钱。
+@cha center 1 move 0 -100 show
 *朋友*这样吧，你不吃饭，过来玩玩也没关系。
 @bg home.png 1.0
 @ch c char.png 0.5 
 ###说完就走出了房间。这里要使用演出来切换场景 而不是小说第三人称
-*小夜美*反正闲着也是闲着，那我就过来玩玩吧。
+*小夜美*反正闲着也是闲着，那我就过去玩玩吧。
+@cha center 1 move 600 0 show
 @ch c none 0.5
 @load 2.txt

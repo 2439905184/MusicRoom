@@ -1,20 +1,33 @@
 :SCENE_2
 ###更换视角！
 『第二话』什么？餐厅还能这么玩？
-@bg tenRoad.png 1.5 clockwise30
-@bgm sky_rest.ogg 
-*小夜美*照着朋友给出的地址走去。走过了一段路，进过了一个十字路口后，她到达了餐厅所在的位置。
-@bg kitchine.png 1.0
-@ch c friend.png 0
-*朋友*小夜美，这里这里！”
-*朋友*“天大地大，吃饭最大！”
+@bgm sky_rest.ogg
+@bg tenRoad.png 1.0 clockwise
 @ch c char.png 1.0
-*小夜美*坐在了朋友的对面。朋友此时正拿着菜单在点餐。
-@ch c friend.png 1.0
+*小夜美*是这里对吧，目的地应该在附近了。
+@bg cantin.png 1.0
+@ch left friend.png 1.0
+@ch right char.png 1.0
+*朋友*小夜美，这里这里！
+*朋友*我在这家店门口等了很久，一开门，我就进去了。毕竟“天大地大，吃饭最大！”
+*小夜美*你呀，干啥啥不行，吃饭第一名
+*朋友*不吃好怎么能做事呢，饿过度可是会"浅表性胃炎的！"
+*小夜美*嗯，你说的对...
+*朋友*吃什么好呢...
 *朋友*怎么样，这个餐厅很棒吧，不仅装修好看，而且这里的菜也好吃。
+### 清空角色
+@ch left none 1.0
+@ch right none 1.0
+### 环顾四周演出
+@ch left char.png 1.0
+@ch left none 1.0
 @ch c char.png 1.0
-*小夜美*环顾了一下四周，心想：这里装修真好看，在这里听音乐绝对是一种享受！。
-*小夜美*灵光一闪，说：自己想要开一个一个音乐餐厅。
+@ch c none 1.0
+@ch right char.png 1.0
+@ch right none 1.0
+@ch c char.png 1.0
+*小夜美*这里装修真好看，在这里听音乐绝对是一种享受！。
+*小夜美*灵光一闪：我想要开一个音乐餐厅。
 @ch c char.png 1.0
 @bgm sweet.ogg
 @ch c friend.png 1.0

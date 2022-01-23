@@ -1,8 +1,9 @@
 :SCENE_3
 『第三话』开始！餐厅营业前的准备
 @bgm slow_time.ogg
-@bg home.png 1.0
-*小夜美的家人*你是认真的嘛。
+@bg home.png 1.0 clockwise
+@ch left y_normal.png 1.0
+*忧姬*你是认真的嘛。
 @ch c k07.png 1.0
 *小夜美*没错！我是认真的，我想要开最好的音乐餐厅！
 @bg home.png 0.5
