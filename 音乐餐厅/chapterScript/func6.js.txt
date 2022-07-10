@@ -1,8 +1,0 @@
-
-
-koyomi.attr("src","../img/friend.png")
-koyomi.attr("src","../img/friends.png")
-
-koyomi.attr("src","../img/friends.png")
-koyomi.attr("src","../img/friend.png")
-koyomi.attr("src","../img/char.png")
